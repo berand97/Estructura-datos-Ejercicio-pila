@@ -62,10 +62,10 @@ public class Pila {
                     l = l + v;
                     if (l > 9) {
                         String o = Integer.toString(l);
-                        Integer w = Integer.parseInt(Character.toString(o.charAt(0)));
+                        Integer ñ = Integer.parseInt(Character.toString(o.charAt(0)));
                         Integer p = Integer.parseInt(Character.toString(o.charAt(1)));
                         cola2.insertar(p);
-                        v = w;
+                        v = ñ;
                     } else {
                         cola2.insertar(l);
                         v = 0;
@@ -78,10 +78,10 @@ public class Pila {
                     b = 0;
                     if (l > 9) {
                         String o = Integer.toString(l);
-                        Integer w = Integer.parseInt(Character.toString(o.charAt(0)));
+                        Integer ñ = Integer.parseInt(Character.toString(o.charAt(0)));
                         Integer p = Integer.parseInt(Character.toString(o.charAt(1)));
                         cola2.insertar(p);
-                        v = w;
+                        v = ñ;
                     } else {
                         cola2.insertar(l);
                         v = 0;
